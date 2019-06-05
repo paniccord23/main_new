@@ -49,9 +49,9 @@ main {
   position: relative;
     right: calc((100vw - var(--container-width)) / 2);
     --container-width: 98vw;
-    width: 96vw;
-    height: 105vw;
-    top: -24px;
+    width: 101vw;
+    height: 91vw;
+    top: 36px;
 }
 
 .left {
