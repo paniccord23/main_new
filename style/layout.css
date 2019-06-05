@@ -73,13 +73,14 @@ p {
   font-family: 'Roboto', sans-serif;
   line-height: 130%;
   font-size: 18px;
-  padding-top: 28px;
+  padding-top: 17px;
   padding-bottom: 28px;
   width: 287px;
-
 }
 /* ширина блока текста */
-
+.line {
+  width: 42px;
+}
 footer {
   background-color: #101010;
   height: 90px;
