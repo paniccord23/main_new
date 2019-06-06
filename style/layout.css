@@ -310,6 +310,7 @@ footer {
     height: 41vw;
   }
   .more-post {
+    padding-top: 45px;
     height: 700px;
     display: flex;
     justify-content: center;
@@ -322,5 +323,8 @@ footer {
     margin-top: 17px;
     width: 48vw;
     height: 34vw;
+  }
+  .line {
+    width: 96px;
   }
 }
