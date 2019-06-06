@@ -42,7 +42,7 @@ h1 {
   padding-bottom: 4px;
 }
 main {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 /* высота первого блока */
 .pict {
@@ -60,7 +60,6 @@ main {
 .left-info {
   padding-left: 5%;
 }
-
 .more-info {
   font-family: "GOTHICB";
   font-weight: bold;
@@ -81,6 +80,15 @@ p {
 .line {
   width: 42px;
 }
+.right {
+  padding-left: 20px;
+}
+.right-pic {
+  width: 68vw;
+}
+.bag-pic {
+  width: 30vw;
+}
 footer {
   background-color: #101010;
   height: 90px;
@@ -95,31 +103,33 @@ footer {
 }
 
 @media screen and (max-width: 425px;) {
-  .small {
-    display: unset;
-    position: absolute;
-    right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 100%;
-    width: 50vw;
-    height: 50vw;
-    margin-top: -80px;
+  .bag-pic {
+    height: 300px;
   }
+
   .left-info {
     height: 616px;
   }
-  .main-img {
-    position: relative;
+  .pict-b {
+      position: relative;
+      top: 21px;
       right: calc((100vw - var(--container-width)) / 2);
-      --container-width: 147%;
-      width: 77vw;
-      height: 88vw;
-      bottom: 101px;
+      --container-width: 91%;
+      width: 68vw;
+      height: 45vw;
+      z-index: 2;
+  }
+  .bag {
+    height: 200px;
   }
 
 }
 
-
 @media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 32px;
+  }
   h5 {
     font-size: 14px;
   }
@@ -128,7 +138,8 @@ footer {
     width: 395px;
   }
   .left {
-    height: 727px;
+    height: 587px;
+    justify-content: flex-end;
     display: flex;
     flex-direction: row-reverse;
   }
@@ -136,14 +147,38 @@ footer {
     width: 100vw;
     padding-top: 100px;
   }
-  .main-img {
+  .bag {
+    height: 500px;
+  }
+  .bag-pic {
+    width: 60vw;
+  }
+  .pict-b {
+      position: relative;
+      top: 21px;
+      right: calc((100vw - var(--container-width)) / 2);
+      --container-width: 91%;
+      width: 68vw;
+      height: 45vw;
+      z-index: 2;
+  }
+  .right {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+  }
+  .right-pic {
+    width: 30vw;
+    height: 41vw;
+  }
+  /* .main-img {
     position: relative;
       right: calc((100vw - var(--container-width)) / 2);
       --container-width: 147%;
       width: 77vw;
       height: 88vw;
       bottom: 101px;
-  }
+  } */
   .pict {
     position: absolute;
     right: calc((79vw - var(--container-width)) / 2);
@@ -158,6 +193,7 @@ footer {
 
 
 @media screen and (min-width: 1024px) {
+
   /* navigation */
   nav {
 		height: 68px;
@@ -213,26 +249,78 @@ footer {
   h5 {
     font-size: 18px;
   }
-  /* first-section */
-  .left {
-    display: flex;
-    flex-direction: row-reverse;
-    height: 1150px;
-  }
-  .left-info {
-    padding-top: 142px;
-  }
   p {
     font-size: 32px;
     width: 579px;
   }
+  /* картинка слева */
+  .left {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 720px;
+    justify-content: flex-end;
+  }
+  .left-info {
+    padding-top: 142px;
+    padding-left: 5%;
+  }
+  .bag {
+    display: flex;
+    justify-content: center;
+    height: 960px;
+  }
+  .bag-pic {
+    height: 70vw;
+    width: 96vw;
+  }
+  .pict-b {
+    position: relative;
+    top: 21px;
+    right: calc((100vw - var(--container-width)) / 2);
+    --container-width: 104%;
+    width: 832px;
+    height: 44vw;
+    z-index: 2;
+  }
   .pict {
-    position: absolute;
-      right: calc((100vw - var(--container-width)) / 2);
-      --container-width: 100%;
-      width: 53vw;
-      height: 48vw;
-      bottom: 101px;
-      top: 42px;
+    position: relative;
+    right: calc((100vw - var(--container-width)) / 2);
+    --container-width: 149%;
+    --container-width: 82%;
+    width: 71vw;
+    height: 48vw;
+    /* bottom: 101px; */
+    top: 42px;
+    }
+    /*картинка справа  */
+    .right {
+      display: flex;
+      flex-direction: row;
+      padding-left: 3%;
+      height: 555px;
+  }
+  .right-info {
+    padding-top: 20px;
+    padding-left: 8%;
+    height: 500px;
+  }
+  .right-pic {
+    bottom: -10;
+    width: 30vw;
+    height: 41vw;
+  }
+  .more-post {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+  }
+  .poster {
+    width: 32vw;
+    height: 41vw;
+  }
+  .space-pic {
+    margin-top: 17px;
+    width: 48vw;
+    height: 34vw;
   }
 }
