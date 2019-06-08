@@ -169,11 +169,11 @@ footer {
     font-size: 14px;
   }
   p {
-    font-size: 24px;
-    width: 395px;
+    font-size: 22px;
+    width: 358px;
   }
   .left {
-    height: 587px;
+    height: 470px;
     justify-content: flex-end;
     display: flex;
     flex-direction: row-reverse;
@@ -183,21 +183,22 @@ footer {
     padding-top: 100px;
   }
   .bag {
-    height: 500px;
+    height: 74vw;
   }
   .bag-pic {
-    width: 60vw;
+    width: 100vw;
   }
   .pict-b {
-      position: relative;
-      top: 21px;
-      right: calc((100vw - var(--container-width)) / 2);
-      --container-width: 91%;
-      width: 68vw;
-      height: 45vw;
-      z-index: 2;
+    position: relative;
+    top: -91px;
+    right: calc((100vw - var(--container-width)) / 2);
+    --container-width: 95%;
+    width: 68vw;
+    height: 45vw;
+    z-index: 2;
   }
   .right {
+    height: 486px;
     display: flex;
     justify-content: space-around;
     padding-bottom: 70px;
@@ -206,24 +207,45 @@ footer {
     width: 30vw;
     height: 41vw;
   }
-  /* .main-img {
-    position: relative;
-      right: calc((100vw - var(--container-width)) / 2);
-      --container-width: 147%;
-      width: 77vw;
-      height: 88vw;
-      bottom: 101px;
-  } */
   .pict {
-    position: absolute;
+    position: relative;
     right: calc((79vw - var(--container-width)) / 2);
-    --container-width: 79vw;
-    width: 60vw;
-    height: 58vw;
+    --container-width: 59vw;
+    width: 75vw;
+    height: 55vw;
     top: 29px;
     z-index: 2;
   }
+  .more-post {
+    flex-direction: row;
+    align-items: baseline;
+    height: 620px;
+  }
+  .poster {
+    width: 37vw;
+    margin-right: 3%;
+  }
+  .space-pic {
+    width: 58vw;
+    padding-left: 33px;
+    height: 40vw;
+  }
+  .right-last {
+    padding-top: 20px;
+    display: flex;
+    height: 583px;
+    padding-left: 5%;
+  }
+  .right-pic {
+    width: 37vw;
+    height: 52vw;
+    }
+  .right-info {
+    padding-top: 26px;
+    padding-left: 5%;
+  }
 }
+
 
 
 
@@ -340,6 +362,7 @@ footer {
     height: 500px;
   }
   .right-pic {
+
     bottom: -10;
     width: 30vw;
     height: 41vw;
