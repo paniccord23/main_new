@@ -34,7 +34,7 @@ h1, h2, h3, h5 {
 h5 {
   color: #333333;
   font-size: 12px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 h1 {
@@ -52,12 +52,14 @@ main {
     width: 118vw;
     height: 81vw;
     top: 36px;
+    margin-bottom: 20px;
 }
 
 .left {
-  height: 612px;
+  height: 578px;
 }
 .left-info {
+  padding-top: 10px;
   padding-left: 5%;
 }
 .more-info {
@@ -73,7 +75,7 @@ p {
   line-height: 130%;
   font-size: 18px;
   padding-top: 17px;
-  padding-bottom: 28px;
+  padding-bottom: 22px;
   width: 287px;
 }
 /* ширина блока текста */
@@ -84,10 +86,40 @@ p {
   padding-left: 20px;
 }
 .right-pic {
+  margin-bottom: 20px;
   width: 68vw;
 }
+.bag {
+  display: flex;
+  height: 370px;
+  justify-content: center;
+  align-items: baseline;
+}
 .bag-pic {
-  width: 30vw;
+  width: 122vw;
+}
+.poster {
+  width: 70vw;
+}
+.more-post {
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.space-pic {
+  width: 100vw;
+  margin-bottom: 20px;
+}
+.pict-b {
+  width: 133vw;
+  margin-top: 80px;
+}
+.right-last {
+  padding-top: 70px;
+height: 730px;
+padding-left: 20px;
 }
 footer {
   background-color: #101010;
