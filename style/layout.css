@@ -46,11 +46,11 @@ main {
 }
 /* высота первого блока */
 .pict {
-  position: relative;
+    position: relative;
     right: calc((100vw - var(--container-width)) / 2);
     --container-width: 98vw;
-    width: 101vw;
-    height: 91vw;
+    width: 118vw;
+    height: 81vw;
     top: 36px;
 }
 
@@ -103,6 +103,7 @@ footer {
 }
 
 @media screen and (max-width: 425px;) {
+
   .bag-pic {
     height: 300px;
   }
