@@ -136,7 +136,7 @@ footer {
   top: -8px;
 }
 
-@media screen and (max-width: 425px;) {
+@media screen and (max-width: 549px;) {
 
   .bag-pic {
     height: 300px;
@@ -160,7 +160,7 @@ footer {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 550px) {
 
   h1 {
     font-size: 32px;
@@ -390,6 +390,9 @@ footer {
   }
   .line {
     width: 96px;
+  }
+  .about-pr {
+    padding-left: 22%;
   }
 }
 @media screen and (min-width: 1440px) {
